@@ -15,6 +15,6 @@ echo "Range ranges[] = {\n" >> pow_43_coefficients.h
 ./lolremez -s --float -d 3 -r 3072:4096 "pow(x,4/3)" >> pow_43_coefficients.h
 ./lolremez -s --float -d 3 -r 4096:6144 "pow(x,4/3)" >> pow_43_coefficients.h
 ./lolremez -s --float -d 3 -r 6144:7168 "pow(x,4/3)" >> pow_43_coefficients.h
-./lolremez -s --float -d 3 -r 7168:8206 "pow(x,4/3)" >> pow_43_coefficients.h
+./lolremez -s --float -d 3 -r 7168:8207 "pow(x,4/3)" >> pow_43_coefficients.h
 echo "};\n\n\n" >> pow_43_coefficients.h
 

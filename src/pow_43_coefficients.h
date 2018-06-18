@@ -59,9 +59,9 @@ Range ranges[] = {
  * with a polynomial of degree 3. */
 { 3, 6144, 7168, {-2.1009273e-8f,1.0478853e-3f,1.3923737e+1f,-7.701167e+3f,}},
 /* Approximation of f(x) = pow(x,4/3)
- * on interval [ 7168, 8206 ]
+ * on interval [ 7168, 8207 ]
  * with a polynomial of degree 3. */
-{ 3, 7168, 8206, {-1.6518644e-8f,9.517134e-4f,1.4610871e+1f,-9.3390728e+3f,}},
+{ 3, 7168, 8207, {-1.6516898e-8f,9.5167361e-4f,1.4611173e+1f,-9.3398367e+3f,}},
 };
 
 
