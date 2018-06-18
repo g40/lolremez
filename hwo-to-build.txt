@@ -1,0 +1,10 @@
+# after cloning git@github.com:g40/lolremez.git
+# get all submodules
+git submodule update --init --recursive
+# run autotools
+./bootstrap
+# now generate makefiles
+./configure
+# and finally build. How obscure!
+make
+# lolremez executable is in ./src
